@@ -1,0 +1,248 @@
+html, body {
+  height: 100%;
+}
+
+
+
+a{
+  color: white;
+}
+a:hover {
+color: yellow;
+text-decoration: underline;
+}
+
+a.about{
+  color: red;
+}
+
+a.about:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+a.title{
+  color: yellow;
+}
+
+a.manutenzione{
+  color: blue;
+}
+
+
+.ba-slider {
+  position: relative;
+  overflow: hidden;
+}
+.ba-slider img {
+  width: 100%;
+  display: block;
+  border: solid 8px black;
+  border-style: double;
+}
+.resize {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+.handle {
+  /* Thin line seperator */
+  position: absolute;
+  left:   50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  margin-left: -2px;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: ew-resize;
+}
+.handle:after {
+  /* Big orange knob  */
+  position: absolute;
+  top: 50%;
+  width: 64px;
+  height: 64px;
+  margin: -32px 0 0 -32px;
+  content: '\21d4';
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  line-height: 64px;
+  background: #ffb800;
+  /* @orange */
+  border: 1px solid #e6a600;
+  /* darken(@orange, 5%) */
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3), inset 0 2px 0 rgba(255, 255, 255, 0.5), inset 0 60px 50px -30px #ffd466;
+  /* lighten(@orange, 20%)*/
+}
+.draggable:after {
+  width: 48px;
+  height: 48px;
+  margin: -24px 0 0 -24px;
+  line-height: 48px;
+  font-size: 30px;
+}
+
+.mySlides {
+  display:none;
+  border: solid 8px black;
+  border-style:  double;
+}
+
+.mySlides2{
+  display: none;
+  border: solid 8px black;
+  border-style:  double;
+}
+
+.mySlides_3{
+  display: none;
+  border: solid 8px black;
+  border-style: double;
+}
+
+h2.food{
+  color: white;
+  text-align: center;
+  padding: 250px;
+  font-family: "Comic Sans MS";
+}
+
+.dropdown-button{
+
+}
+
+.dropdown-content{
+  background-color: red;
+  font-family:
+}
+
+h2.header{
+  font-family: "Comic Sans MS";
+  font-size: 65px;
+}
+
+h2.food1{
+  color: white;
+  text-align: center;
+  padding: 250px;
+  font-family: "Comic Sans MS";
+}
+
+h2.food2{
+  color: white;
+  text-align: center;
+  padding: 250px;
+  font-family: "Comic Sans MS";
+}
+
+h2.food3{
+  color: white;
+  text-align: center;
+  padding: 250px;
+  font-family: "Comic Sans MS";
+}
+
+h2.food4{
+  color: white;
+  text-align: center;
+  padding: 250px;
+  font-family: "Comic Sans MS";
+}
+
+h2.food5{
+  color: white;
+  text-align: center;
+  padding: 250px;
+  font-family: "Comic Sans MS";
+}
+
+
+/*Inizio slide animate */
+
+.mySlidesMenu {display: none;}
+img {vertical-align: middle;}
+
+.mySlidesMenu1 {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  border: solid 8px black;
+  border-style: double;
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 40px;
+  padding: 0px 295px;
+  position: absolute;
+  top: 0;
+  font-family: "Comic Sans MS";
+  color: white;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.box{
+  width: 400px;
+  height: 400px;
+}
