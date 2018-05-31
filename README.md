@@ -6,19 +6,22 @@ Template realizzato per l'app Messina 4 all
 Per un corretto funzionamento di tutte le parti grafiche è consigliabile includere 
 i seguenti file nella sezione <code>&lt;head></code> del vostro sito.
 
-<code>
-    &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    &lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-    &lt;link href="css/style.css" type="text/css" rel="stylesheet"> //Guarda come includere il css personale
-    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    &lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  </code>
+
+<code>  &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"></code>
+  
+<code> &lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> </code>
+   
+<code> &lt;link href="css/style.css" type="text/css" rel="stylesheet"> //Guarda come includere il css personale </code>
+   
+<code> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script></code>
+
+<code> &lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script></code>
+
   
  Prima della fine della sezione <code>&lt;/body></code> includete questo Js:
  
  <code>
-   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+   &lt;script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   </code>
   
   
