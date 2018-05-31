@@ -11,7 +11,7 @@ i seguenti file nella sezione <code>&lt;head></code> del vostro sito.
   
 <code> &lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> </code>
    
-<code> &lt;link href="css/style.css" type="text/css" rel="stylesheet"> //Guarda come includere il css personale </code>
+<code> &lt;link href="css/style.css" type="text/css" rel="stylesheet"> </code> //Guarda come includere il css personale 
    
 <code> &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script></code>
 
