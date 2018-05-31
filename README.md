@@ -4,7 +4,7 @@ Template realizzato per l'app Messina 4 all
 # Come usare il template:
 
 Per un corretto funzionamento di tutte le parti grafiche è consigliabile includere 
-i seguenti file nella sezione <code><head></code> del vostro sito.
+i seguenti file nella sezione <head> del vostro sito.
 
 <code>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
