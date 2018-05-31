@@ -1,5 +1,16 @@
 # Messina-4-All-Template
-Template realizzato per l'app Messina 4 all
+Template realizzato per l'app Messina 4 all:
+
+<h3>Dipendenze:</h3>
+<ul>
+  <li><a href="https://materializecss.com/">Materialize CSS</a></li>
+  <li><a href="http://jquery.com/download/">JQuery v3.3.1</a></li>
+  <li><a href="https://fonts.googleapis.com/icon?family=Material+Icons">Material+Icons</a></li>
+  <li><a href="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">JQuery v1.8.3</a></li>
+  <li><a href="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">JQuery v2.1.3</a></li>
+  <li><a href="https://dl.dropbox.com/s/yobc49hzrzu3kuc/style-min.css?dl=0">Css Personale (style.css)</a></li>
+  </ul>
+  
 
 # Come usare il template:
 
